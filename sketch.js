@@ -18,9 +18,9 @@ function setup() {
     text(websiteTitle,540,0,100,150);
     textSize(21);
     text('Round Rock, TX',560,150,175,25);
-   /* OrderButton=createButton('Order Masks');
-    OrderButton.position(580,250);
-    OrderButton.mousePressed(OrderMasks);*/
+    OrderButton=createButton('Order Masks');
+    OrderButton.position(580,200);
+    OrderButton.mousePressed(OrderMasks);
 
    // GalleryButton=createButton('View Gallery');
    // GalleryButton.position(300,150);
@@ -33,7 +33,7 @@ function setup() {
 }
 
 function OrderMasks(){
-   //window.open("https://forms.gle/286i6PAbFP88EYqe7");
+   window.open("https://forms.gle/286i6PAbFP88EYqe7");
 }
 
 function draw() {
