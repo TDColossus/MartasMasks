@@ -5,8 +5,8 @@ let ParagraphText;
 let TexasTechIMG;
 let OklahomaIMG;
 function preload(){
-    //OklahomaIMG=loadImage('kittens/Oklahoma.jpg');
-    //TexasTechIMG=loadImage('kittens/TexasTech.jpg');
+    OklahomaIMG=loadImage('assets/Oklahoma.jpg');
+    TexasTechIMG=loadImage('assets/TexasTech.jpg');
 }
 
 function setup() {
@@ -26,9 +26,8 @@ function setup() {
    // GalleryButton.position(300,150);
 //    GalleryButton.mousePressed(ViewGallery);
 
-
-    //image(TexasTechIMG,0,420,400,540);
-    //image(OklahomaIMG,880,420,400,540);
+    image(TexasTechIMG,0,420,400,540);
+    image(OklahomaIMG,880,420,400,540);
 
 }
 
